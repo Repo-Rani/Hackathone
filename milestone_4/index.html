@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <span class = "border_line"></span>
+    <form id="form">
+      <h2>Editable Resume Form</h2>
+      <div class="section">
+        <h3>Personal Information</h3>
+        <div class="inputBox">
+          <input id="fullName" type="text" placeholder="Enter your full name" />
+          
+        </div>
+        <div class="inputBox">
+          <input id="email" type="email" required placeholder="Enter your email" />
+        </div>
+        <div class="inputBox">
+          <input id="phone" type="tel" placeholder="Enter your contact number" required />
+        </div>
+      </div>
+      <!-- Education Section -->
+       <div class="section">
+        <h3>Education</h3>
+        <div class="inputBox">
+          <input id="degree" type="text" placeholder="Enter your degree" required/>
+        </div>
+        <div class="inputBox">
+          <input id="institute" type="text" placeholder="Enter institution name" />
+        </div>
+        <div class="inputBox" >
+          <input id="Year" type="text" placeholder="Enter year of graduation" required />
+        </div>
+       </div>
+       <!-- Experience Section -->
+        <div class="section">
+          <h3> Work Experience</h3>
+          <div class="inputBox">
+            <input id="company" type="text" placeholder="Enter company name"/>
+          </div>
+          <div class="inputBox">
+            <input id="years" type="text" placeholder="Year of experience">
+          </div>
+        </div>
+        <!-- Skills Selection -->
+        <div class="section">
+          <h3>Skills</h3>
+          <div class="inputBox">
+            <input id="skill-1" type="text" placeholder="Enter skill 1" />
+          </div>
+          <div class="inputBox">
+            <input id="skill-2" type="text" placeholder="Enter skill 2" />
+          </div>
+          <div class="inputBox">
+            <input id="skill-3" type="text" placeholder="Enter skill 3" />
+          </div>
+          <div class="inputBox">
+            <input id="skill-4" type="text" placeholder="Enter skill 4" />
+          </div>
+          <div class="inputBox">
+            <input id="skill-5" type="text" placeholder="Enter skill 5" />
+          </div>
+        </div>
+        <!-- Submit Button -->
+        <input  id="submit"  type="submit" value="Generated Resume" />
+    </form>
+    <br/>
+    <div id="resume-display" contenteditable="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
