@@ -5,7 +5,7 @@
   font-family: "poppins", sans-serif;
 }
 body {
-  background-color: #5c8374;
+  background-color: #E2DFD0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,6 +124,7 @@ body {
   height: 6px;
   display: block;
   margin: top 5px;
+  padding-bottom: 2px;
 }
 .contactInfo.language .percent div {
   position: absolute;
