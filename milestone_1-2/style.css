@@ -24,8 +24,8 @@ body {
 }
 .container .left_side {
   position: relative;
-  background: #0A1931;
-  padding: 40px;
+  background: #001F3F;
+  padding: 52px;
 }
 .profileText {
   position: relative;
@@ -94,7 +94,7 @@ body {
   display: inline-block;
   font-size: 18px;
   width: 30px;
-  color: #FD8C04;
+  color: #FFC26F;
 }
 .contactInfo ul li span {
   color: #fff;
@@ -106,7 +106,7 @@ body {
   line-height: 1.7;
 }
 .contactInfo.education h5 {
-  color: #FD8C04;
+  color: #FFC26F;
   font-weight: 500;
 }
 .contactInfo.education h4 {
@@ -132,7 +132,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #FD8C04;
+  background: #FFC26F;
 }
 .container .right_side {
   position: relative;
@@ -175,7 +175,7 @@ p {
 }
 .about .box .text h4 {
   text-transform: uppercase;
-  color: #FD8C04;
+  color: #FFC26F;
   font-size: 16px;
   margin-bottom: 28px;
 }
@@ -200,10 +200,10 @@ p {
   position: relative;
   height: 10px;
   width: 100%;
-  background: #1a3636;
+  background: #EAD8B1;
 }
 .skills .box .percent div {
-  background: #FD8C04;
+  background: #FFC26F;
   position: absolute;
   top: 0;
   left: 0;
@@ -220,7 +220,7 @@ p {
   margin: 10px 0;
 }
 .interest ul li .fa {
-  color: #FD8C04;
+  color: #FFC26F;
   width: 20px;
   font-size: 18px;
 }
@@ -250,19 +250,23 @@ p {
 
 #toggle {
   font-family: Arial, Helvetica, sans-serif;
-  box-shadow: 0px 0px 10px #FD8C04;
+  background-color: #001F3F;
+  box-shadow: 0px 0px 10px #001F3F;
+  color: white;
+  font-style: italic;
   border-radius: 10px;
-  width: 110px;
+  width: 120px;
   height: 50px;
   cursor: pointer;
   outline: none;
   border: none;
   margin-top: 10px;
   font-size: 18px;
-  padding: 6px;
+  padding: 5px;
   margin-left: 160px;
 }
 
-button:hover {
-  background-color: #FD8C04;
+#toggle:hover {
+  background-color: #FFC26F;
+  color: #001F3F;
 }
