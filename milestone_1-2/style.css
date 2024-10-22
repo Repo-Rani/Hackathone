@@ -5,7 +5,7 @@
   font-family: "poppins", sans-serif;
 }
 body {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ body {
 }
 .container .left_side {
   position: relative;
-  background: #001F3F;
+  background: #001f3f;
   padding: 52px;
 }
 .profileText {
@@ -94,19 +94,18 @@ body {
   display: inline-block;
   font-size: 18px;
   width: 30px;
-  color: #FFC26F;
+  color: #ffc26f;
 }
 .contactInfo ul li span {
   color: #fff;
   font-weight: 300;
-
 }
 .contactInfo.education li {
   margin-bottom: 15px;
   line-height: 1.7;
 }
 .contactInfo.education h5 {
-  color: #FFC26F;
+  color: #ffc26f;
   font-weight: 500;
 }
 .contactInfo.education h4 {
@@ -132,11 +131,11 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #FFC26F;
+  background: #ffc26f;
 }
 .container .right_side {
   position: relative;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 40px;
 }
 .container .right_side .about p {
@@ -175,7 +174,7 @@ p {
 }
 .about .box .text h4 {
   text-transform: uppercase;
-  color: #FFC26F;
+  color: #ffc26f;
   font-size: 16px;
   margin-bottom: 28px;
 }
@@ -200,10 +199,10 @@ p {
   position: relative;
   height: 10px;
   width: 100%;
-  background: #EAD8B1;
+  background: #ead8b1;
 }
 .skills .box .percent div {
-  background: #FFC26F;
+  background: #ffc26f;
   position: absolute;
   top: 0;
   left: 0;
@@ -220,7 +219,7 @@ p {
   margin: 10px 0;
 }
 .interest ul li .fa {
-  color: #FFC26F;
+  color: #ffc26f;
   width: 20px;
   font-size: 18px;
 }
@@ -250,8 +249,8 @@ p {
 
 #toggle {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #001F3F;
-  box-shadow: 0px 0px 10px #001F3F;
+  background-color: #001f3f;
+  box-shadow: 0px 0px 10px #001f3f;
   color: white;
   font-style: italic;
   border-radius: 10px;
@@ -263,10 +262,10 @@ p {
   margin-top: 10px;
   font-size: 18px;
   padding: 5px;
-  margin-left: 160px;
+  margin-left: 200px;
 }
 
 #toggle:hover {
-  background-color: #FFC26F;
-  color: #001F3F;
+  background-color: #ffc26f;
+  color: #001f3f;
 }
