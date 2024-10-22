@@ -269,3 +269,10 @@ p {
   background-color: #ffc26f;
   color: #001f3f;
 }
+
+@media (max-width:438px) {
+  #toggle{
+    margin-left: 100px;
+  }
+  
+}
