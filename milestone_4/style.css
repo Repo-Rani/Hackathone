@@ -53,7 +53,7 @@ body {
   border-color: #97714d;
 }
 
-.box #submit {
+.box .submit-btn {
   padding: 7px;
   font-weight: 700;
   border: none;
@@ -65,7 +65,7 @@ body {
   background: #97714d;
   color: #fff;
 }
-.box #submit:hover {
+.box .submit-btn:hover {
   background: #fff;
   transition: 0.6s;
   color: #000;
@@ -88,22 +88,17 @@ body {
   text-align: center;
   font-size: 35px;
 }
-
-@media(max-width:438px){
-  .box h2{
-    text-align: center;
-  }
-  .box #submit {
-    width: 335px;
-  }
-}
-
 @media (max-width:640px) {
   .box h2{
     text-align: center;
   }
-
-  .box #submit {
-    width: 355px;
+  
+}
+@media(max-width:438px){
+  .box h2{
+    text-align: center;
+  }
+  .box .submit-btn {
+   width: 100%;
   }
 }
