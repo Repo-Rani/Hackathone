@@ -95,12 +95,13 @@ body {
   margin-top: 30px;
   border-radius: 10px;
   height: 250px;
-  width: 535px;
+  width: 100%;
   padding: 30px;
 }
 #shareable-link p {
   color: #fff;
 }
+
 #shareable-link h2 {
   text-align: center;
   font-size: 35px;
@@ -111,7 +112,7 @@ body {
 }
 #shareable-link #download-pdf {
   height: 35px;
-  width: 456px;
+  width: 100%;
   border: 1px solid #97714d;
   border-radius: 10px;
   margin: 10px;
@@ -120,6 +121,9 @@ body {
   color: white;
   transition: 0.9s;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #shareable-link #download-pdf:hover {
   color: #000;
@@ -128,9 +132,12 @@ body {
 
 #share-link span {
   text-align: center;
-  padding-left: 32%;
   color: #97714d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 #share-link span:hover {
   color: white;
 }
@@ -138,9 +145,49 @@ body {
   text-decoration: none;
 }
 
-@media (max-width:438px) {
-  .box #submit {
-    width: 343px ;
+@media (max-width: 540px) {
+  .box h2 {
+    text-align: center;
   }
-  
+}
+
+@media (max-width: 438px) {
+  .box #submit {
+    width: 100%;
+  }
+  .shareable-link {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 375px), (max-width: 320px) {
+  #shareable-link {
+    width: 100%;
+    padding: 0;
+  }
+  #shareable-link h2 {
+    font-size: 1.6rem;
+  }
+  #shareable-link p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 1rem;
+    margin-top: -1rem;
+  }
+  #shareable-link span {
+    text-align: center;
+  }
+  #shareable-link #download-pdf {
+    width: 85%;
+    margin-left: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #shareable-link #download-pdf {
+    margin-left: 2.2rem;
+  }
 }

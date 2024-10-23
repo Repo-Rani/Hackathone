@@ -14,7 +14,6 @@ form.addEventListener("submit", function (event) {
     var degree = document.getElementById("degree").value;
     var institutionName = document.getElementById("institute").value;
     var year = document.getElementById("Year").value;
-    // const title = (document.getElementById("company") as HTMLInputElement).value;
     var company = document.getElementById("company").value;
     var years = document.getElementById("years").value;
     var skill1 = document.getElementById("skill-1").value;
