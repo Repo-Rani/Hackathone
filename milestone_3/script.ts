@@ -18,10 +18,8 @@ form.addEventListener("submit", (event: Event) => {
   const institutionName = (
     document.getElementById("institute") as HTMLInputElement
   ).value;
-
+  
   const year = (document.getElementById("Year") as HTMLInputElement).value;
-
-  // const title = (document.getElementById("experienceYears") as HTMLInputElement).value;
 
   const company = (document.getElementById("company") as HTMLInputElement).value;
   const years = (document.getElementById("years") as HTMLInputElement).value;
