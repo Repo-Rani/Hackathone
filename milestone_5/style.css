@@ -137,3 +137,10 @@ body {
 #shareable-link a {
   text-decoration: none;
 }
+
+@media (max-width:438px) {
+  .box #submit {
+    width: 343px ;
+  }
+  
+}
