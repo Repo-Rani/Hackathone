@@ -88,3 +88,22 @@ body {
   text-align: center;
   font-size: 35px;
 }
+
+@media(max-width:438px){
+  .box h2{
+    text-align: center;
+  }
+  .box #submit {
+    width: 335px;
+  }
+}
+
+@media (max-width:640px) {
+  .box h2{
+    text-align: center;
+  }
+
+  .box #submit {
+    width: 355px;
+  }
+}
